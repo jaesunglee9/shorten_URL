@@ -1,3 +1,5 @@
+
+
 # ShortenURL
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -5,14 +7,21 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
+
 This project uses python and fastapi to shorten URLs.
 VCS:git/github
 
 ## install project
-    git clone <본인repository>
+```bash
+git clone <본인repository>
+```
 
 ### install dependency
-    pip install "fastapi[all]"
+```bash
+pip install "fastapi[all]"
+```
 
 ## run app
-    uvicorn main:app --reload
+```bash
+uvicorn main:app --reload
+```
